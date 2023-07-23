@@ -101,6 +101,7 @@ public class RadioTest {
         int actual = radio.getCurrentStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testCurrentVolume1() {
         Radio radio = new Radio();
@@ -111,6 +112,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testCurrentVolume() {
         Radio radio = new Radio();
@@ -121,6 +123,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testCurrentVolume2() {
         Radio radio = new Radio();
@@ -131,6 +134,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testCurrentVolume3() {
         Radio radio = new Radio();
@@ -141,6 +145,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testCurrentVolume4() {
         Radio radio = new Radio();
@@ -151,6 +156,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testCurrentVolume5() {
         Radio radio = new Radio();
@@ -161,6 +167,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testCurrentVolume6() {
         Radio radio = new Radio();
@@ -171,6 +178,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testCurrentVolume7() {
         Radio radio = new Radio();
@@ -181,6 +189,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testNextStation1() {
         Radio radio = new Radio();
@@ -245,6 +254,7 @@ public class RadioTest {
         int actual = radio.getCurrentStation();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testPrevStation1() {
         Radio radio = new Radio();
